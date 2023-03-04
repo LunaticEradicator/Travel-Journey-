@@ -1,0 +1,66 @@
+body {
+  margin: 0
+}
+
+h1,
+p,
+h2 {
+  margin: 0;
+}
+
+p,
+span {
+  font-size: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav>img {
+  width: 20px;
+}
+
+.each-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.locationImage {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.navIcon {
+  width: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+}
+
+.header>p {
+  text-decoration: underline;
+  color: rgb(133, 135, 136);
+}
+
+.headerIcon {
+  display: flex;
+  align-items: center;
+}
+
+.date>p {
+  max-width: 500px;
+}
